@@ -120,6 +120,7 @@ public class Hangman{
             //if there is nol gussed life left, print player lost and print the complete hangman
             DrawHangman.draw(numguess);
             System.out.println("\nYou Lost.");
+            System.out.print("The word was: "+ word);
         }else{
             //else print the player won
             printWord(wordArr);
